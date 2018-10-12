@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 
 // configure Mongoose to use ES6 promises
-mongoose.Promise = global.Promise;
+  mongoose.Promise = global.Promise;
 
 const { PORT, DATABASE_URL } = require('./config');
 const { Post } = require('./models');
